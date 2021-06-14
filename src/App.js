@@ -16,7 +16,7 @@ const Item = ({ index, d }) => {
   return (
     <div className='item' key={index}>
       <div className='box'></div>
-      <div className='txt'>{`第${d}天`}</div>
+      <div className='txt'>{`第${d+1}天`}</div>
     </div>
   )
 }
